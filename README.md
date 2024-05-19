@@ -1,5 +1,5 @@
 #We'll do EDA and feature engineering and then run
-a decision tree algorithm on the data predict the survival 
+a decision tree algorithm on the titanic data to predict the survival 
 chance of a passenger.
 We'll use 
 -ydata-profiling to understanding the data
