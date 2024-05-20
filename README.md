@@ -4,6 +4,11 @@
 only considering age and fare(pipeline2.py).
 3. We try applying different transformer methods on features to find optimal way to convert
 their PDF to normal distribution (power_transformer.py)
+4. Despite using different scaling and transformer methods, we observed sub per accuracy rate for our ML models.
+We'll try using various methods to convert numerical feature of "age" and "fare" to categorical feature and re run
+or model to see whether we observe any improvement.
+5. After observing the PDF of "age" and "fare category", decided to transform age to 8 uniform bins
+and "fare" to 5 quantile bins. It produced the best accuracy for the decision tree
 We'll use 
 -ydata-profiling to understanding the data
 -EDA to check distribution of features (age and fare) and check whether they are normally distributed.
