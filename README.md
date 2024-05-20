@@ -8,7 +8,8 @@ their PDF to normal distribution (power_transformer.py)
 We'll try using various methods to convert numerical feature of "age" and "fare" to categorical feature and re run
 or model to see whether we observe any improvement.
 5. After observing the PDF of "age" and "fare category", decided to transform age to 8 uniform bins
-and "fare" to 5 quantile bins. It produced the best accuracy for the decision tree
+and "fare" to 5 quantile bins. It produced the best accuracy for the decision 
+tree(numerical_transformation_to_categorical.py).
 We'll use 
 -ydata-profiling to understanding the data
 -EDA to check distribution of features (age and fare) and check whether they are normally distributed.
