@@ -12,9 +12,13 @@ and "fare" to 5 quantile bins. It produced the best accuracy for the decision
 tree(numerical_transformation_to_categorical.py).
 
 We'll use 
+
 -ydata-profiling to understanding the data
+
 -EDA to check distribution of features (age and fare) and check whether they are normally distributed.
+
 -pipeline and transformer to do feature engineering
+
 -pickel to transport the model
 
 Observation
