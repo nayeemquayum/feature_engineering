@@ -2,6 +2,8 @@
 1. Using decision tree algorithm predict the survival chance of a passenger(pipeline.py).
 2. Using both decision tree and logistic regression predict survival chance of a passenger 
 only considering age and fare(pipeline2.py).
+3. We try applying different transformer methods on features to find optimal way to convert
+their PDF to normal distribution (power_transformer.py)
 We'll use 
 -ydata-profiling to understanding the data
 -EDA to check distribution of features (age and fare) and check whether they are normally distributed.
