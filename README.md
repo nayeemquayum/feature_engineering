@@ -10,7 +10,12 @@ or model to see whether we observe any improvement.
 5. After observing the PDF of "age" and "fare category", decided to transform age to 8 uniform bins
 and "fare" to 5 quantile bins. It produced the best accuracy for the decision 
 tree(numerical_transformation_to_categorical.py).
-
+6. We try automatic imputer selection using GridSearchCV (auto_impute_selection.py).
+7. In feature_selection.py we try to calculate the relationship of all the input features with
+the output feature "survive". We applied 3 techniques.
+   1. correlation technique from pandas.
+   2. SelectKBest class to extract top 10 best features
+   3. feature_importances_ from ExtraTreesClassifier
 We'll use 
 
 -ydata-profiling to understanding the data
